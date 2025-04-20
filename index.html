@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript and DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>Javascript & DOM Manipulation</header>
+    <main>
+      <h1 id="dynamicChange">My content changes dynamically</h1>
+      <button class="btn" id="changeBtn" onclick="changeContent()">
+        click Here
+      </button>
+      <h2 id="changeCss">
+        My CSS property changes When the button is clicked!
+      </h2>
+      <button class="btn" onclick="styleChange()">Click Me!</button>
+      <p id="disapper">
+        Observe how Iam added or removed when the button is clicked
+      </p>
+      <button class="btn" onclick="toggleMe()">Add or Remove</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

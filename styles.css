@@ -1,0 +1,23 @@
+#dynamicChange {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #413d3d;
+  margin: 20px 0;
+}
